@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navcontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: antiquewhite;
+    
+}
+.navcontainer img {
+    width: 150px;
+    height: 130px;
+    border-radius: 25%;
+    margin-right: 15em;
+}
+.linkcontainer , .linkcontainer a{
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: darkorange;
+}
+
+
