@@ -8,7 +8,7 @@
     justify-content: space-around;
     align-items: center;
     height: 150px;
-    background-color: antiquewhite;
+    background-color: rgb(8, 6, 3);
     
 }
 .navcontainer img {
@@ -23,6 +23,19 @@
     font-size: 1rem;
     text-decoration: none;
     color: darkorange;
+}
+.navv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(3, 3, 3);
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 
