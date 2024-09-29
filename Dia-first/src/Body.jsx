@@ -1,5 +1,4 @@
-
-
+import Card from "./Card"
 
 
 function Body(){
@@ -9,14 +8,9 @@ function Body(){
 
 {
     arrayofitems.map((item) => 
-    <div className="" key={item.id}>
-        <div className="card" key={item.count}>
-            <img src={item.image} alt="" />
-            <h3>{item.title}</h3>
-            <p><i>{item.description}</i></p>
-            <p><b>Price $ {item.price}</b></p>
-        </div>
-    </div>
+    
+        < Card key={item.id} data={item}/>
+    
     )
     
 }
