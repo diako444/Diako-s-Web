@@ -1,5 +1,6 @@
 import Header from './Header'
 import Body from './Body'
+import Form from './Form'
 function App() {
   
   
@@ -7,6 +8,8 @@ function App() {
       <>
         <Header />
         <Body />
+        
+        <Form />
       </>
     )
   

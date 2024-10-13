@@ -1,6 +1,5 @@
 import Card from "./Card"
 
-
 function Body(){
     
     return(
@@ -19,8 +18,7 @@ function Body(){
     )
 }
 // trial project
-    const arrayofitems =
-[
+    const arrayofitems =[
     {
     "id": 1,
     "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
