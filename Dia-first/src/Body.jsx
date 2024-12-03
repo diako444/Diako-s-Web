@@ -4,9 +4,8 @@ function Body(){
     
     return(
         <div className="cardcontainer">
-
-{
-    arrayofitems.map((item) => 
+            {
+            arrayofitems.map((item) => 
     
         < Card key={item.id} data={item}/>
     
